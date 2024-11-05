@@ -1,0 +1,30 @@
+<?php
+    class Produk{
+        public $merek = "Sharp";
+        public $stok = 50;
+        public function cekStok(){
+            return "Sisa stok: ".$this->stok;
+        }
+    }
+    class Televisi extends Produk{    
+        public $jenis = "Televisi";
+        public function cekStokTelevisi(){
+            return $this->jenis." ".$this->merek.", ".$this->cekStok();
+        }
+    }
+
+    class TelevisiLCD extends Televisi{
+        public $tipe = "LCD";
+        public function cekStokTelevisiLCD(){
+            return $this->tipe." ".$this->cekStokTelevisi();
+        }
+    }
+
+    $produk01 = new TelevisiLCD();
+    echo $produk01->merek;
+    echo "\n";
+    echo $produk01->jenis;
+    echo "\n";
+    echo $produk01->tipe;
+    echo "\n";
+    echo $produk01->cekStokTelevisiLCD();
