@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Mengatur tinggi body agar elemen bisa dipusatkan secara vertikal */
+  text-align: center; /* Memusatkan teks dalam body */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px; /* Membatasi lebar maksimum container */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center; /* Memusatkan teks dalam elemen container */
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+}
+
+table td {
+  padding: 10px;
+}
+
+table td:first-child {
+  text-align: left; /* Mengatur teks dalam sel pertama setiap baris tabel menjadi rata kiri */
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.view-data-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.view-data-link:hover {
+  background-color: #0056b3;
+}
