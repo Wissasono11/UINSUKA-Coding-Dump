@@ -9,3 +9,5 @@ Kumpulan Bahasa pemrograman yang digunakan:
 - C++
 - Python
 - JS
+- C
+- Jupyter Notebook
