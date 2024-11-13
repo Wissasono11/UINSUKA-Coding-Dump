@@ -11,7 +11,7 @@ Berikut ini adalah masing-masing dari output program:
 ![Gerbang Logika OR](https://github.com/Wissasono11/UIN-Coding-Project/blob/main/Algorithm%20Perceptron/img/OR-with-logicPerceptron.png)
 
 ### Gerbang Logika NAND
-![Gerbang Logika NAND](https://github.com/Wissasono11/UIN-Coding-Project/blob/main/Algorithm%20Perceptron/img/AND-with-logicPerceptron.png)
+![Gerbang Logika NAND](https://github.com/Wissasono11/UIN-Coding-Project/blob/main/Algorithm%20Perceptron/img/NAND-with-logicPerceptron.png)
 
 ### Gerbang Logika NOR
 ![Gerbang Logika NOR](https://github.com/Wissasono11/UIN-Coding-Project/blob/main/Algorithm%20Perceptron/img/NOR-with-logicPerceptron.png)
@@ -24,6 +24,13 @@ Berikut ini adalah masing-masing dari output program:
 
 ### Gerbang Logika XOR
 ![Gerbang Logika](https://github.com/Wissasono11/UIN-Coding-Project/blob/main/Algorithm%20Perceptron/img/XOR-with-logicPerceptron.png)
+
+
+
+
+
+
+
 
 
 
