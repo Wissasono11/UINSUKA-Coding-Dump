@@ -11,3 +11,5 @@ Kumpulan Bahasa pemrograman yang digunakan:
 - JS
 - C
 - Jupyter Notebook
+- HTML
+- CSS
