@@ -1,0 +1,48 @@
+* {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: "Sora", sans-serif;
+}
+
+#header {
+  margin-bottom: 5px;
+}
+
+#header span:hover {
+  color: blue;
+}
+
+#paragraf {
+  max-width: 800px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 20px;
+  transition: color 0.3s ease;
+}
+
+#tombol {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: gold;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#tombol:hover {
+  background-color: goldenrod;
+  color: white;
+  transform: translateY(-2px);
+}

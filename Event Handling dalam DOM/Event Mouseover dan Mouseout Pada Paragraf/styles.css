@@ -1,0 +1,24 @@
+#hoverText {
+  padding: 15px 25px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  background-color: white;
+  color: #2c3e50;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 20px;
+  display: inline-block;
+}
+
+#hoverText:hover {
+  background-color: #3498db;
+  color: black;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+#hoverText:active {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.2);
+}
