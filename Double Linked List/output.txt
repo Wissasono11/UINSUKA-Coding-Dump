@@ -1,0 +1,10 @@
+NIM: 23106050002
+Name: Bayu Wicaksono
+====================================
+DOUBLE LINKED LIST MENU:
+1. INSERTION
+2. DELETION
+3. SHOW DATA
+4. EXIT
+====================================
+Enter your choice: 
